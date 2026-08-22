@@ -1,0 +1,185 @@
+{
+  "started_at": "2026-08-22T23:20:07+00:00",
+  "finished_at": "2026-08-22T23:25:29+00:00",
+  "duration_s": 321.5,
+  "status": "ok",
+  "scraped": 1999,
+  "too_old": 674,
+  "duplicates": 1305,
+  "prefilter_dropped": 9,
+  "prefilter_disqualified": 3,
+  "over_cap": 0,
+  "evaluated": 8,
+  "evaluation_failures": 0,
+  "matched": 0,
+  "alerts_sent": 0,
+  "alerts_failed": 0,
+  "alerts_skipped": 0,
+  "gemini_calls": 1,
+  "gemini_tokens": 9096,
+  "sources": [
+    {
+      "name": "talent",
+      "ok": true,
+      "count": 724,
+      "seconds": 45.9,
+      "error": "",
+      "sample": {
+        "title": "Senior Test Engineer - Genesys Cloud Contact Center",
+        "company": "Unison Group",
+        "relevant": "yes"
+      }
+    },
+    {
+      "name": "linkedin",
+      "ok": true,
+      "count": 482,
+      "seconds": 302.9,
+      "error": "",
+      "sample": {
+        "title": "Contact Center Solutions Engineer",
+        "company": "Emdad By Elm",
+        "relevant": "yes"
+      }
+    },
+    {
+      "name": "job_apis",
+      "ok": true,
+      "count": 265,
+      "seconds": 2.6,
+      "error": "",
+      "sample": {
+        "title": "Cloud Field Engineer",
+        "company": "Canonical Ltd.",
+        "relevant": "yes"
+      }
+    },
+    {
+      "name": "search_proxy",
+      "ok": true,
+      "count": 210,
+      "seconds": 24.2,
+      "error": "",
+      "sample": {
+        "title": "IT Support Engineer - (Help Desk & Infrastructure Support) jobs in GSSTech Group in Dubai - United Arab Emirates",
+        "company": "",
+        "relevant": "yes"
+      }
+    },
+    {
+      "name": "telegram",
+      "ok": true,
+      "count": 191,
+      "seconds": 14.4,
+      "error": "",
+      "sample": {
+        "title": "فرصة في المصرية للاتصالات (WE) للخريجين الجدد Transmission",
+        "company": "",
+        "relevant": "yes"
+      }
+    },
+    {
+      "name": "rss",
+      "ok": true,
+      "count": 127,
+      "seconds": 1.4,
+      "error": "",
+      "sample": {
+        "title": "Embedded Linux Field Engineer for Devices/IoT",
+        "company": "",
+        "relevant": "yes"
+      }
+    },
+    {
+      "name": "telegram_user",
+      "ok": true,
+      "count": 0,
+      "seconds": 4.8,
+      "error": "",
+      "sample": {}
+    },
+    {
+      "name": "facebook",
+      "ok": true,
+      "count": 0,
+      "seconds": 9.1,
+      "error": "",
+      "sample": {}
+    },
+    {
+      "name": "tanqeeb",
+      "ok": true,
+      "count": 0,
+      "seconds": 17.5,
+      "error": "",
+      "sample": {}
+    }
+  ],
+  "top_matches": [
+    {
+      "score": 35,
+      "role": "Manager, Enterprise Service Desk",
+      "company": "XTIUM",
+      "location": "United States",
+      "source": "api:himalayas",
+      "link": "https://himalayas.app/companies/xtium/jobs/manager-enterprise-service-desk"
+    },
+    {
+      "score": 15,
+      "role": "Principal Software Architect (Remote, US)",
+      "company": "CenturyLink",
+      "location": "United States",
+      "source": "api:himalayas",
+      "link": "https://himalayas.app/companies/centurylink/jobs/principal-software-architect-remote-us"
+    },
+    {
+      "score": 10,
+      "role": "Arabisch-Sprachspezialist (Nachhilfelehrer) | Remote | flexibel",
+      "company": "Nachhilfeunterricht",
+      "location": "Germany",
+      "source": "api:himalayas",
+      "link": "https://himalayas.app/companies/nachhilfeunterricht/jobs/arabisch-sprachspezialist-nachhilfelehrer-remote-flexibel"
+    },
+    {
+      "score": 10,
+      "role": "Administrative Assistant (USA Financial Services) - EST Hours | Remote",
+      "company": "ISTA Personnel Solutions",
+      "location": "South Africa",
+      "source": "api:himalayas",
+      "link": "https://himalayas.app/companies/ista-personnel-solutions/jobs/administrative-assistant-usa-financial-services-est-hours-remote"
+    },
+    {
+      "score": 10,
+      "role": "Marketing Specialist - Fully Remote | Upto $80/hr",
+      "company": "mercor",
+      "location": "United States",
+      "source": "api:himalayas",
+      "link": "https://himalayas.app/companies/mercor/jobs/marketing-specialist-fully-remote-upto-80-hr"
+    },
+    {
+      "score": 5,
+      "role": "Accounting Support Specialist",
+      "company": "GR8 Global",
+      "location": "Philippines",
+      "source": "api:himalayas",
+      "link": "https://himalayas.app/companies/gr8-global/jobs/accounting-support-specialist"
+    },
+    {
+      "score": 5,
+      "role": "INGENYX-Contracts & Integration Lead (Remote, MA, US)",
+      "company": "Teleflex",
+      "location": "Morocco, United States",
+      "source": "api:himalayas",
+      "link": "https://himalayas.app/companies/teleflex/jobs/ingenyx-contracts-integration-lead-remote-ma-us"
+    },
+    {
+      "score": 5,
+      "role": "Field Application Engineer (m/w/d) - Energietechnik - Remote - Bayern & Österre",
+      "company": "TE Connectivity",
+      "location": "Germany",
+      "source": "api:himalayas",
+      "link": "https://himalayas.app/companies/te-connectivity/jobs/field-application-engineer-m-w-d-energietechnik-remote-bayern-osterre-4930246537"
+    }
+  ],
+  "errors": []
+}
