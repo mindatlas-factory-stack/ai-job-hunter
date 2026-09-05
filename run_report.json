@@ -1,0 +1,201 @@
+{
+  "started_at": "2026-09-05T14:41:32+00:00",
+  "finished_at": "2026-09-05T14:47:01+00:00",
+  "duration_s": 328.7,
+  "status": "ok",
+  "scraped": 1959,
+  "too_old": 665,
+  "duplicates": 1264,
+  "prefilter_dropped": 20,
+  "prefilter_disqualified": 0,
+  "over_cap": 0,
+  "evaluated": 10,
+  "evaluation_failures": 0,
+  "matched": 0,
+  "alerts_sent": 0,
+  "alerts_failed": 0,
+  "alerts_skipped": 0,
+  "gemini_calls": 2,
+  "gemini_tokens": 12065,
+  "sources": [
+    {
+      "name": "talent",
+      "ok": true,
+      "count": 755,
+      "seconds": 39.1,
+      "error": "",
+      "sample": {
+        "title": "Senior Avaya Engineer (Oceana hands on experience required)",
+        "company": "Virtua Advanced Solution",
+        "relevant": "yes"
+      }
+    },
+    {
+      "name": "linkedin",
+      "ok": true,
+      "count": 502,
+      "seconds": 306.7,
+      "error": "",
+      "sample": {
+        "title": "Senior Asterisk Developer",
+        "company": "CODE LTD",
+        "relevant": "yes"
+      }
+    },
+    {
+      "name": "rss",
+      "ok": true,
+      "count": 242,
+      "seconds": 1.9,
+      "error": "",
+      "sample": {
+        "title": "Sparix Global.: MSD 365 Customer Relationship Management (CRM) Lead",
+        "company": "Sparix Global.",
+        "relevant": "yes"
+      }
+    },
+    {
+      "name": "search_proxy",
+      "ok": true,
+      "count": 201,
+      "seconds": 24.1,
+      "error": "",
+      "sample": {
+        "title": "NOC / Infrastructure Support Engineer jobs in Centrelocus in Saudi Arabia - Saudi Arabia",
+        "company": "",
+        "relevant": "yes"
+      }
+    },
+    {
+      "name": "telegram",
+      "ok": true,
+      "count": 189,
+      "seconds": 15.8,
+      "error": "",
+      "sample": {
+        "title": "TECHNICAL SUPPORT ENGINEER..(LIGHTING PRODUCT)",
+        "company": "",
+        "relevant": "yes"
+      }
+    },
+    {
+      "name": "job_apis",
+      "ok": true,
+      "count": 70,
+      "seconds": 2.7,
+      "error": "",
+      "sample": {
+        "title": "Strategic Sales Director, Iberia",
+        "company": "Cresta",
+        "relevant": "yes"
+      }
+    },
+    {
+      "name": "telegram_user",
+      "ok": true,
+      "count": 0,
+      "seconds": 4.5,
+      "error": "",
+      "sample": {}
+    },
+    {
+      "name": "facebook",
+      "ok": true,
+      "count": 0,
+      "seconds": 8.7,
+      "error": "",
+      "sample": {}
+    },
+    {
+      "name": "tanqeeb",
+      "ok": true,
+      "count": 0,
+      "seconds": 17.0,
+      "error": "",
+      "sample": {}
+    }
+  ],
+  "top_matches": [
+    {
+      "score": 60,
+      "role": "Customer Support Engineer",
+      "company": "RelationalAI",
+      "location": "Unknown",
+      "source": "rss:Jobicy",
+      "link": "https://jobicy.com/jobs/152570-customer-support-engineer-2"
+    },
+    {
+      "score": 45,
+      "role": "Solution Engineer",
+      "company": "RelationalAI",
+      "location": "Unknown",
+      "source": "rss:Jobicy",
+      "link": "https://jobicy.com/jobs/152574-solution-engineer-3"
+    },
+    {
+      "score": 35,
+      "role": "URGENT HIRING – JUNIOR IT SUPPORT ENGINEER",
+      "company": "KUWAIT JOBS HERE",
+      "location": "Qurain, Mubarak Al-Kabeer, Kuwait",
+      "source": "linkedin",
+      "link": "https://kw.linkedin.com/jobs/view/urgent-hiring-%E2%80%93-junior-it-support-engineer-at-kuwait-jobs-here-4462613182"
+    },
+    {
+      "score": 35,
+      "role": "Client Support Specialist (English Account)",
+      "company": "ETISAL International Group",
+      "location": "Cairo, Cairo, Egypt",
+      "source": "linkedin",
+      "link": "https://eg.linkedin.com/jobs/view/client-support-specialist-english-account-at-etisal-international-group-4463745032"
+    },
+    {
+      "score": 30,
+      "role": "NOC Engineer - Enterprise Operations",
+      "company": "K20s - Kinetic Technologies Private Limited",
+      "location": "Sharjah, Sharjah Emirate, United Arab Emirates",
+      "source": "linkedin",
+      "link": "https://ae.linkedin.com/jobs/view/noc-engineer-enterprise-operations-at-k20s-kinetic-technologies-private-limited-4462617356"
+    },
+    {
+      "score": 10,
+      "role": "HIRING FOR OMAN QA QC",
+      "company": "Premier Travels",
+      "location": "Oman",
+      "source": "telegram:gulfwalkins",
+      "link": "https://gulfwalkin.com/jobs/346052"
+    },
+    {
+      "score": 5,
+      "role": "UAE EPC & Oil and Gas Project",
+      "company": "Crescent Careers",
+      "location": "UAE",
+      "source": "telegram:gulfwalkins",
+      "link": "https://gulfwalkin.com/jobs/346055"
+    },
+    {
+      "score": 5,
+      "role": "Electrical Technician",
+      "company": "Abdullah Travels",
+      "location": "Qatar",
+      "source": "telegram:gulfwalkins",
+      "link": "https://gulfwalkin.com/jobs/346062"
+    },
+    {
+      "score": 5,
+      "role": "Electrical Engineer",
+      "company": "AK ENTERPRISES",
+      "location": "Oman",
+      "source": "telegram:gulfwalkins",
+      "link": "https://gulfwalkin.com/jobs/346061"
+    },
+    {
+      "score": 0,
+      "role": "GESCO Group Walk In Interview In Dubai To Know More Visit Here",
+      "company": "GESCO Group",
+      "location": "Dubai",
+      "source": "telegram:FreeJobsInDubai",
+      "link": "https://freejobsindubai.com/job/gesco-co-llc-walk-in-interview-in-dubai"
+    }
+  ],
+  "errors": []
+}
