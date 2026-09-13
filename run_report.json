@@ -1,0 +1,120 @@
+{
+  "started_at": "2026-09-13T00:38:18+00:00",
+  "finished_at": "2026-09-13T00:43:26+00:00",
+  "duration_s": 307.9,
+  "status": "ok",
+  "scraped": 2013,
+  "too_old": 657,
+  "duplicates": 1355,
+  "prefilter_dropped": 1,
+  "prefilter_disqualified": 0,
+  "over_cap": 0,
+  "evaluated": 0,
+  "evaluation_failures": 0,
+  "matched": 0,
+  "alerts_sent": 0,
+  "alerts_failed": 0,
+  "alerts_skipped": 0,
+  "gemini_calls": 0,
+  "gemini_tokens": 0,
+  "sources": [
+    {
+      "name": "talent",
+      "ok": true,
+      "count": 743,
+      "seconds": 49.6,
+      "error": "",
+      "sample": {
+        "title": "Senior Avaya Engineer (Oceana hands on experience required)",
+        "company": "Virtua Advanced Solution",
+        "relevant": "yes"
+      }
+    },
+    {
+      "name": "linkedin",
+      "ok": true,
+      "count": 527,
+      "seconds": 304.2,
+      "error": "",
+      "sample": {
+        "title": "UC Senior Technical Support Engineer",
+        "company": "VaporVM",
+        "relevant": "yes"
+      }
+    },
+    {
+      "name": "rss",
+      "ok": true,
+      "count": 246,
+      "seconds": 2.7,
+      "error": "",
+      "sample": {
+        "title": "Sparix Global.: MSD 365 Customer Relationship Management (CRM) Lead",
+        "company": "Sparix Global.",
+        "relevant": "yes"
+      }
+    },
+    {
+      "name": "search_proxy",
+      "ok": true,
+      "count": 216,
+      "seconds": 24.3,
+      "error": "",
+      "sample": {
+        "title": "L2 VOIP Engineer (Microsoft and Avaya) job at Orange Business in Nasr City, Cairo",
+        "company": "",
+        "relevant": "yes"
+      }
+    },
+    {
+      "name": "telegram",
+      "ok": true,
+      "count": 191,
+      "seconds": 15.7,
+      "error": "",
+      "sample": {
+        "title": "We are hiring for Oman CCTV",
+        "company": "",
+        "relevant": "yes"
+      }
+    },
+    {
+      "name": "job_apis",
+      "ok": true,
+      "count": 90,
+      "seconds": 1.6,
+      "error": "",
+      "sample": {
+        "title": "Early Morning Remote General - Synergy Radiology Associates",
+        "company": "Radiology Partners",
+        "relevant": "yes"
+      }
+    },
+    {
+      "name": "telegram_user",
+      "ok": true,
+      "count": 0,
+      "seconds": 4.0,
+      "error": "",
+      "sample": {}
+    },
+    {
+      "name": "facebook",
+      "ok": true,
+      "count": 0,
+      "seconds": 9.0,
+      "error": "",
+      "sample": {}
+    },
+    {
+      "name": "tanqeeb",
+      "ok": true,
+      "count": 0,
+      "seconds": 17.3,
+      "error": "",
+      "sample": {}
+    }
+  ],
+  "top_matches": [],
+  "errors": []
+}
