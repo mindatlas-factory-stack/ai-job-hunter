@@ -1,0 +1,201 @@
+{
+  "started_at": "2026-09-15T20:22:34+00:00",
+  "finished_at": "2026-09-15T20:32:08+00:00",
+  "duration_s": 573.5,
+  "status": "ok",
+  "scraped": 2042,
+  "too_old": 738,
+  "duplicates": 1243,
+  "prefilter_dropped": 43,
+  "prefilter_disqualified": 3,
+  "over_cap": 0,
+  "evaluated": 15,
+  "evaluation_failures": 0,
+  "matched": 1,
+  "alerts_sent": 1,
+  "alerts_failed": 0,
+  "alerts_skipped": 0,
+  "gemini_calls": 10,
+  "gemini_tokens": 20464,
+  "sources": [
+    {
+      "name": "talent",
+      "ok": true,
+      "count": 788,
+      "seconds": 49.8,
+      "error": "",
+      "sample": {
+        "title": "Senior Avaya Engineer (Oceana hands on experience required)",
+        "company": "Virtua Advanced Solution",
+        "relevant": "yes"
+      }
+    },
+    {
+      "name": "linkedin",
+      "ok": true,
+      "count": 510,
+      "seconds": 305.6,
+      "error": "",
+      "sample": {
+        "title": "UC Engineer - Strong exp in Design, develop, and implement Interactive Voice Response (IVR) applications and strong background of contact center such as Zoom, Bright-pattern, Cisco & Avaya.",
+        "company": "Avensys Consulting",
+        "relevant": "yes"
+      }
+    },
+    {
+      "name": "rss",
+      "ok": true,
+      "count": 245,
+      "seconds": 3.0,
+      "error": "",
+      "sample": {
+        "title": "Sparix Global.: MSD 365 Customer Relationship Management (CRM) Lead",
+        "company": "Sparix Global.",
+        "relevant": "yes"
+      }
+    },
+    {
+      "name": "search_proxy",
+      "ok": true,
+      "count": 217,
+      "seconds": 23.4,
+      "error": "",
+      "sample": {
+        "title": "Network VOIP Engineer at MIGRATIONIT - Cairo",
+        "company": "",
+        "relevant": "yes"
+      }
+    },
+    {
+      "name": "telegram",
+      "ok": true,
+      "count": 192,
+      "seconds": 18.1,
+      "error": "",
+      "sample": {
+        "title": "We’re Hiring",
+        "company": "",
+        "relevant": "yes"
+      }
+    },
+    {
+      "name": "job_apis",
+      "ok": true,
+      "count": 90,
+      "seconds": 2.3,
+      "error": "",
+      "sample": {
+        "title": "Epic Certified Business Systems Analysis Specialist-Clinical Service Desk-remote",
+        "company": "NTT DATA",
+        "relevant": "yes"
+      }
+    },
+    {
+      "name": "telegram_user",
+      "ok": true,
+      "count": 0,
+      "seconds": 5.1,
+      "error": "",
+      "sample": {}
+    },
+    {
+      "name": "facebook",
+      "ok": true,
+      "count": 0,
+      "seconds": 9.4,
+      "error": "",
+      "sample": {}
+    },
+    {
+      "name": "tanqeeb",
+      "ok": true,
+      "count": 0,
+      "seconds": 16.5,
+      "error": "",
+      "sample": {}
+    }
+  ],
+  "top_matches": [
+    {
+      "score": 80,
+      "role": "Technical Support Advisor",
+      "company": "Ada",
+      "location": "UK",
+      "source": "api:jobicy",
+      "link": "https://jobicy.com/jobs/153309-technical-support-advisor-2"
+    },
+    {
+      "score": 60,
+      "role": "Forward Deployed Engineer, Python",
+      "company": "Socket",
+      "location": "USA",
+      "source": "api:jobicy",
+      "link": "https://jobicy.com/jobs/153341-forward-deployed-engineer-python"
+    },
+    {
+      "score": 50,
+      "role": "Welsh Audio Specialist - Freelance AI Trainer Project",
+      "company": "Invisible Technologies",
+      "location": "United Kingdom",
+      "source": "api:himalayas",
+      "link": "https://himalayas.app/companies/inv/jobs/welsh-audio-specialist-freelance-ai-trainer-project-2323745099"
+    },
+    {
+      "score": 45,
+      "role": "Sales Engineer, Enterprise",
+      "company": "Socket",
+      "location": "USA",
+      "source": "api:jobicy",
+      "link": "https://jobicy.com/jobs/153337-sales-engineer-enterprise-2"
+    },
+    {
+      "score": 40,
+      "role": "IT Support Engineer (Part Time - Dispatch)",
+      "company": "Sky Systems, Inc. (SkySys)",
+      "location": "Sohar, Al Batinah North Governorate, Oman",
+      "source": "linkedin",
+      "link": "https://om.linkedin.com/jobs/view/it-support-engineer-part-time-dispatch-at-sky-systems-inc-skysys-4467759683"
+    },
+    {
+      "score": 30,
+      "role": "Epic Certified Business Systems Analysis Specialist-Clinical Service Desk-remote",
+      "company": "NTT DATA",
+      "location": "United States",
+      "source": "api:himalayas",
+      "link": "https://himalayas.app/companies/nttdata/jobs/epic-certified-business-systems-analysis-specialist-clinical-service-desk-remote"
+    },
+    {
+      "score": 30,
+      "role": "Senior System Engineer",
+      "company": "Forvis Mazars in Qatar",
+      "location": "Doha Metropolitan Area",
+      "source": "linkedin",
+      "link": "https://qa.linkedin.com/jobs/view/senior-system-engineer-at-forvis-mazars-in-qatar-4466552881"
+    },
+    {
+      "score": 30,
+      "role": "Desenvolvedor Front end - REMOTE",
+      "company": "Executiva Outsourcing",
+      "location": "Brazil",
+      "source": "api:himalayas",
+      "link": "https://himalayas.app/companies/executiva-outsourcing/jobs/desenvolvedor-front-end-remote-9268004926"
+    },
+    {
+      "score": 25,
+      "role": "Outdoor Sales Specialist (POS) -أخصائي ميبعات ميداني وتنفيذ POS",
+      "company": "Future Group Language Solutions",
+      "location": "Cairo, Cairo, Egypt",
+      "source": "linkedin",
+      "link": "https://eg.linkedin.com/jobs/view/outdoor-sales-specialist-pos-%D8%A3%D8%AE%D8%B5%D8%A7%D8%A6%D9%8A-%D9%85%D9%8A%D8%A8%D8%B9%D8%A7%D8%AA-%D9%85%D9%8A%D8%AF%D8%A7%D9%86%D9%8A-%D9%88%D8%AA%D9%86%D9%81%D9%8A%D8%B0-pos-at-future-group-language-solutions-4465921532"
+    },
+    {
+      "score": 25,
+      "role": "Staff Software Engineer, AI-Native Systems",
+      "company": "Wheel",
+      "location": "Remote (US)",
+      "source": "api:jobicy",
+      "link": "https://jobicy.com/jobs/153338-staff-software-engineer-ai-native-systems"
+    }
+  ],
+  "errors": []
+}
