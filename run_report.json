@@ -1,0 +1,201 @@
+{
+  "started_at": "2026-09-19T18:26:21+00:00",
+  "finished_at": "2026-09-19T18:35:52+00:00",
+  "duration_s": 571.9,
+  "status": "ok",
+  "scraped": 1989,
+  "too_old": 687,
+  "duplicates": 1212,
+  "prefilter_dropped": 69,
+  "prefilter_disqualified": 6,
+  "over_cap": 0,
+  "evaluated": 15,
+  "evaluation_failures": 0,
+  "matched": 0,
+  "alerts_sent": 0,
+  "alerts_failed": 0,
+  "alerts_skipped": 0,
+  "gemini_calls": 10,
+  "gemini_tokens": 17237,
+  "sources": [
+    {
+      "name": "talent",
+      "ok": true,
+      "count": 767,
+      "seconds": 50.1,
+      "error": "",
+      "sample": {
+        "title": "Senior Avaya Engineer (Oceana hands on experience required)",
+        "company": "Virtua Advanced Solution",
+        "relevant": "yes"
+      }
+    },
+    {
+      "name": "linkedin",
+      "ok": true,
+      "count": 475,
+      "seconds": 304.1,
+      "error": "",
+      "sample": {
+        "title": "Unified Communications (UC) Engineer - Strong exp in Cisco, Avaya, Microsoft Teams, Zoom, WebEx. Strong in IVR systems and integration with UC platforms. Proficiency in SIP",
+        "company": "Avensys Consulting",
+        "relevant": "yes"
+      }
+    },
+    {
+      "name": "rss",
+      "ok": true,
+      "count": 247,
+      "seconds": 2.0,
+      "error": "",
+      "sample": {
+        "title": "Sparix Global.: MSD 365 Customer Relationship Management (CRM) Lead",
+        "company": "Sparix Global.",
+        "relevant": "yes"
+      }
+    },
+    {
+      "name": "search_proxy",
+      "ok": true,
+      "count": 218,
+      "seconds": 24.9,
+      "error": "",
+      "sample": {
+        "title": "Network VOIP Engineer at MIGRATIONIT - Cairo",
+        "company": "",
+        "relevant": "yes"
+      }
+    },
+    {
+      "name": "telegram",
+      "ok": true,
+      "count": 192,
+      "seconds": 16.2,
+      "error": "",
+      "sample": {
+        "title": "Technip Group Jobs In Dubai",
+        "company": "",
+        "relevant": "yes"
+      }
+    },
+    {
+      "name": "job_apis",
+      "ok": true,
+      "count": 90,
+      "seconds": 2.8,
+      "error": "",
+      "sample": {
+        "title": "Senior Full Stack Engineer (Realtime & Voice) Customer Experience Platform",
+        "company": "Hopper",
+        "relevant": "yes"
+      }
+    },
+    {
+      "name": "telegram_user",
+      "ok": true,
+      "count": 0,
+      "seconds": 4.4,
+      "error": "",
+      "sample": {}
+    },
+    {
+      "name": "facebook",
+      "ok": true,
+      "count": 0,
+      "seconds": 8.7,
+      "error": "",
+      "sample": {}
+    },
+    {
+      "name": "tanqeeb",
+      "ok": true,
+      "count": 0,
+      "seconds": 17.8,
+      "error": "",
+      "sample": {}
+    }
+  ],
+  "top_matches": [
+    {
+      "score": 70,
+      "role": "AI/ML Engineering Intern",
+      "company": "talentpluto",
+      "location": "United States",
+      "source": "api:himalayas",
+      "link": "https://himalayas.app/companies/talentpluto/jobs/ai-ml-engineering-intern-8256513949"
+    },
+    {
+      "score": 60,
+      "role": "Diagnostics Technical Support Representative",
+      "company": "Zoetis",
+      "location": "Spain",
+      "source": "api:himalayas",
+      "link": "https://himalayas.app/companies/zoetis/jobs/diagnostics-technical-support-representative-764818897"
+    },
+    {
+      "score": 35,
+      "role": "DevOps Engineer, Blockchain Infra",
+      "company": "Binance",
+      "location": "Fully Remote",
+      "source": "rss:Jobicy",
+      "link": "https://jobicy.com/jobs/153653-devops-engineer-blockchain-infra-fully-remote"
+    },
+    {
+      "score": 30,
+      "role": "Pos",
+      "company": "AU",
+      "location": "Riyadh, Riyadh, Saudi Arabia",
+      "source": "linkedin",
+      "link": "https://sa.linkedin.com/jobs/view/pos-at-au-4466916317"
+    },
+    {
+      "score": 30,
+      "role": "Freelance Software Tester With Apple Vision Pro",
+      "company": "Testlio",
+      "location": "Remote Worldwide",
+      "source": "rss:Jobicy",
+      "link": "https://jobicy.com/jobs/153663-freelance-software-tester-with-apple-vision-pro-remote-worldwide"
+    },
+    {
+      "score": 30,
+      "role": "Project Manager (Software Development)",
+      "company": "Bluelight Consulting",
+      "location": "Argentina",
+      "source": "api:himalayas",
+      "link": "https://himalayas.app/companies/bluelight-consulting/jobs/project-manager-software-development-latin-america-remote-2221352135"
+    },
+    {
+      "score": 25,
+      "role": "Malayalam Language Expert",
+      "company": "mercor",
+      "location": "Singapore",
+      "source": "api:himalayas",
+      "link": "https://himalayas.app/companies/mercor/jobs/malayalam-language-expert-fully-remote-upto-20-hr-part-time-5330707758"
+    },
+    {
+      "score": 0,
+      "role": "Named Technical Support Engineer",
+      "company": "unknown",
+      "location": "unknown",
+      "source": "rss:Jobicy",
+      "link": "https://jobicy.com/jobs/153634-named-technical-support-engineer"
+    },
+    {
+      "score": 0,
+      "role": "Sr Support Engineer 1 - BY TMS/Transportation Management, SQL, Application Support (Immediate Joiners Preferred)",
+      "company": "unknown",
+      "location": "unknown",
+      "source": "search:bayt.com",
+      "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPTm84Mm1GWWMwUnZUVUgwdFBLdzJiRTVhX0RtV1dla2FpY0FhYjFVd25JVlRvNkRqQXBKUXNacGFKREZnbVBpaFpPX244NHRGOC1udThqWVJWWkQ4Z1ppMXVyd2JoUGlORkdYUm9zUVA5WWRxcU9jUTRMdmpGcEdKRXZzYmRvRFFsX3lvWVFBWTNVQkg0SU5YWXlWUVhFa2tubTV4TWhyanExcUFjZVlPTjJXWkZTTnNNZ2lCQlRQYVl5c1VjU2NmSHZzNkR0OGc5aFo0dzJIUUJQcXFuREdxRHJ4QVI1Zw?oc=5"
+    },
+    {
+      "score": 0,
+      "role": "Nandu Nair - application support engineer",
+      "company": "unknown",
+      "location": "unknown",
+      "source": "search:bayt.com",
+      "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5sNm1wdHJGX0hZMk5vQUdYLXhnQkF4RkJDbE5FU1JpWGdtUXZEZTBxeUszZExVbE5kQkxmcWdYdmtvdVlod1JzRDlEamlsTEdTanFCY2pPcHI?oc=5"
+    }
+  ],
+  "errors": []
+}
