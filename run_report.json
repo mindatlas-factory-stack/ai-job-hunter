@@ -1,0 +1,201 @@
+{
+  "started_at": "2026-09-26T15:54:24+00:00",
+  "finished_at": "2026-09-26T16:03:43+00:00",
+  "duration_s": 558.5,
+  "status": "ok",
+  "scraped": 2007,
+  "too_old": 718,
+  "duplicates": 1255,
+  "prefilter_dropped": 18,
+  "prefilter_disqualified": 3,
+  "over_cap": 0,
+  "evaluated": 13,
+  "evaluation_failures": 0,
+  "matched": 0,
+  "alerts_sent": 0,
+  "alerts_failed": 0,
+  "alerts_skipped": 0,
+  "gemini_calls": 10,
+  "gemini_tokens": 15219,
+  "sources": [
+    {
+      "name": "talent",
+      "ok": true,
+      "count": 747,
+      "seconds": 63.1,
+      "error": "",
+      "sample": {
+        "title": "Call Center Team Lead",
+        "company": "Jadeer",
+        "relevant": "yes"
+      }
+    },
+    {
+      "name": "linkedin",
+      "ok": true,
+      "count": 519,
+      "seconds": 304.5,
+      "error": "",
+      "sample": {
+        "title": "UC Engineer - Strong exp in Design, develop, and implement Interactive Voice Response (IVR) applications and strong background of contact center such as Zoom, Bright-pattern, Cisco & Avaya.",
+        "company": "Avensys Consulting",
+        "relevant": "yes"
+      }
+    },
+    {
+      "name": "rss",
+      "ok": true,
+      "count": 246,
+      "seconds": 2.8,
+      "error": "",
+      "sample": {
+        "title": "Sparix Global.: MSD 365 Customer Relationship Management (CRM) Lead",
+        "company": "Sparix Global.",
+        "relevant": "yes"
+      }
+    },
+    {
+      "name": "search_proxy",
+      "ok": true,
+      "count": 214,
+      "seconds": 24.7,
+      "error": "",
+      "sample": {
+        "title": "L2 VOIP Engineer (Microsoft and Avaya) job at Orange Business in Nasr City, Cairo",
+        "company": "",
+        "relevant": "yes"
+      }
+    },
+    {
+      "name": "telegram",
+      "ok": true,
+      "count": 191,
+      "seconds": 15.7,
+      "error": "",
+      "sample": {
+        "title": "CAFM HELPDESK OPERATOR",
+        "company": "",
+        "relevant": "yes"
+      }
+    },
+    {
+      "name": "job_apis",
+      "ok": true,
+      "count": 90,
+      "seconds": 1.9,
+      "error": "",
+      "sample": {
+        "title": "IT Operations Specialist",
+        "company": "abridge",
+        "relevant": "yes"
+      }
+    },
+    {
+      "name": "telegram_user",
+      "ok": true,
+      "count": 0,
+      "seconds": 5.1,
+      "error": "",
+      "sample": {}
+    },
+    {
+      "name": "facebook",
+      "ok": true,
+      "count": 0,
+      "seconds": 8.8,
+      "error": "",
+      "sample": {}
+    },
+    {
+      "name": "tanqeeb",
+      "ok": true,
+      "count": 0,
+      "seconds": 17.9,
+      "error": "",
+      "sample": {}
+    }
+  ],
+  "top_matches": [
+    {
+      "score": 40,
+      "role": "L2 Support Engineer",
+      "company": "Starlink Qatar",
+      "location": "Doha, Qatar",
+      "source": "linkedin",
+      "link": "https://qa.linkedin.com/jobs/view/l2-support-engineer-at-starlink-qatar-4470553742"
+    },
+    {
+      "score": 40,
+      "role": "Information Technology Support Engineer",
+      "company": "Euro Mechanical",
+      "location": "Musaffah, Abu Dhabi Emirate, United Arab Emirates",
+      "source": "linkedin",
+      "link": "https://ae.linkedin.com/jobs/view/information-technology-support-engineer-at-euro-mechanical-4470560680"
+    },
+    {
+      "score": 25,
+      "role": "SAP UK Payroll, Sr. Support Engineer",
+      "company": "Rimini Street",
+      "location": "United Arab Emirates",
+      "source": "linkedin",
+      "link": "https://ae.linkedin.com/jobs/view/sap-uk-payroll-sr-support-engineer-at-rimini-street-4471018915"
+    },
+    {
+      "score": 0,
+      "role": "Not a job vacancy",
+      "company": "Unknown",
+      "location": "Unknown",
+      "source": "search:gulftalent.com",
+      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9ldF9NZVFoY19Cd1BmLUdlUWpzLWM2ZGoycFRqNHRYc3NzRTRtX1p4blFGTFRzY0gxVzZCMjVVcWYyak0yZkZwRVNhYnR3SjJpQkY3Tk9YNnN3bjdsb28wMWdNWmQ?oc=5"
+    },
+    {
+      "score": 0,
+      "role": "CONSTRUCTION MANAGER",
+      "company": "MCCL",
+      "location": "SAUDI ARABIA",
+      "source": "telegram:gulfwalkins",
+      "link": "https://gulfwalkin.com/jobs/347771"
+    },
+    {
+      "score": 0,
+      "role": "FINISHING CARPENTER",
+      "company": "Five Star Placement Pvt Ltd",
+      "location": "DOHA QATAR",
+      "source": "telegram:gulfwalkins",
+      "link": "https://gulfwalkin.com/jobs/347770"
+    },
+    {
+      "score": 0,
+      "role": "SITE COORDINATOR",
+      "company": "Five Star Placement Pvt Ltd",
+      "location": "SAUDI ARABIA",
+      "source": "telegram:gulfwalkins",
+      "link": "https://gulfwalkin.com/jobs/347774"
+    },
+    {
+      "score": 0,
+      "role": "HSE SUPERVISOR",
+      "company": "GOODMAN GLOBAL SOLUTIONS",
+      "location": "KUWAIT",
+      "source": "telegram:gulfwalkins",
+      "link": "https://gulfwalkin.com/jobs/347772"
+    },
+    {
+      "score": 0,
+      "role": "MT TUNNELING MANAGER",
+      "company": "SAIPEM PROJECT",
+      "location": "SAUDI ARABIA",
+      "source": "telegram:gulfwalkins",
+      "link": "https://gulfwalkin.com/jobs/347777"
+    },
+    {
+      "score": 0,
+      "role": "SAFETY OFFICER",
+      "company": "SAIPEM PROJECT",
+      "location": "SAUDI ARABIA",
+      "source": "telegram:gulfwalkins",
+      "link": "https://gulfwalkin.com/jobs/347775"
+    }
+  ],
+  "errors": []
+}
