@@ -1,0 +1,205 @@
+{
+  "started_at": "2026-10-03T22:19:01+00:00",
+  "finished_at": "2026-10-03T22:24:36+00:00",
+  "duration_s": 334.6,
+  "status": "ok",
+  "scraped": 1973,
+  "too_old": 671,
+  "duplicates": 1274,
+  "prefilter_dropped": 14,
+  "prefilter_disqualified": 4,
+  "over_cap": 0,
+  "evaluated": 10,
+  "evaluation_failures": 0,
+  "matched": 0,
+  "alerts_sent": 0,
+  "alerts_failed": 0,
+  "alerts_skipped": 0,
+  "gemini_calls": 2,
+  "gemini_tokens": 15032,
+  "sources": [
+    {
+      "name": "talent",
+      "ok": true,
+      "count": 740,
+      "seconds": 51.6,
+      "error": "",
+      "sample": {
+        "title": "Call Center Team Lead",
+        "company": "Jadeer",
+        "relevant": "yes"
+      }
+    },
+    {
+      "name": "linkedin",
+      "ok": true,
+      "count": 497,
+      "seconds": 305.1,
+      "error": "",
+      "sample": {
+        "title": "UC Engineer - Strong exp in Design, develop, and implement Interactive Voice Response (IVR) applications and strong background of contact center such as Zoom, Bright-pattern, Cisco & Avaya.",
+        "company": "Avensys Consulting",
+        "relevant": "yes"
+      }
+    },
+    {
+      "name": "rss",
+      "ok": true,
+      "count": 249,
+      "seconds": 2.5,
+      "error": "",
+      "sample": {
+        "title": "MMC Group: Benefits Verification Specialist ( Call Center Agent- REMOTE)-Must have your own computer",
+        "company": "MMC Group",
+        "relevant": "yes"
+      }
+    },
+    {
+      "name": "search_proxy",
+      "ok": true,
+      "count": 206,
+      "seconds": 23.9,
+      "error": "",
+      "sample": {
+        "title": "L2 VOIP Engineer (Microsoft and Avaya) job at Orange Business in Nasr City, Cairo",
+        "company": "",
+        "relevant": "yes"
+      }
+    },
+    {
+      "name": "telegram",
+      "ok": true,
+      "count": 189,
+      "seconds": 16.8,
+      "error": "",
+      "sample": {
+        "title": "فرصة عمل | مهندسين اتصالات حديثي التخرج",
+        "company": "",
+        "relevant": "yes"
+      }
+    },
+    {
+      "name": "job_apis",
+      "ok": true,
+      "count": 90,
+      "seconds": 2.1,
+      "error": "",
+      "sample": {
+        "title": "Associate, Commercial SBC",
+        "company": "Ocwen Financial Corporation",
+        "relevant": "yes"
+      }
+    },
+    {
+      "name": "telegram_user",
+      "ok": true,
+      "count": 2,
+      "seconds": 4.3,
+      "error": "",
+      "sample": {
+        "title": "عاااااااجل",
+        "company": "",
+        "relevant": "no"
+      }
+    },
+    {
+      "name": "facebook",
+      "ok": true,
+      "count": 0,
+      "seconds": 8.2,
+      "error": "",
+      "sample": {}
+    },
+    {
+      "name": "tanqeeb",
+      "ok": true,
+      "count": 0,
+      "seconds": 16.5,
+      "error": "",
+      "sample": {}
+    }
+  ],
+  "top_matches": [
+    {
+      "score": 55,
+      "role": "Access Network Technical Support Engineer",
+      "company": "Cloud Destinations Infotech",
+      "location": "Unknown",
+      "source": "telegram:telecomcareers",
+      "link": "http://to:mycareer@clouddestinations.com/"
+    },
+    {
+      "score": 45,
+      "role": "Software Engineer",
+      "company": "Kreative Technologies",
+      "location": "United States",
+      "source": "api:himalayas",
+      "link": "https://himalayas.app/companies/kreative-technologies/jobs/software-engineer"
+    },
+    {
+      "score": 35,
+      "role": "Senior Linux Infrastructure Engineer (Bare metal & storage)",
+      "company": "uvation",
+      "location": "United States",
+      "source": "api:himalayas",
+      "link": "https://himalayas.app/companies/uvation/jobs/senior-linux-infrastructure-engineer-bare-metal-storage-3633082808"
+    },
+    {
+      "score": 35,
+      "role": "ERP Transformation Manager",
+      "company": "ACHYUTAM INTERNATIONAL PRIVATE LIMITED",
+      "location": "dubai, DU, United Arab Emirates",
+      "source": "talent:ae",
+      "link": "https://ae.talent.com/view?id=639528707628794193"
+    },
+    {
+      "score": 20,
+      "role": "Principal Site Reliability Engineer Lead",
+      "company": "Akamai Technologies",
+      "location": "Poland",
+      "source": "api:himalayas",
+      "link": "https://himalayas.app/companies/akamai-technologies/jobs/principal-site-reliability-engineer-lead"
+    },
+    {
+      "score": 10,
+      "role": "Senior Power BI consultant",
+      "company": "TASQ Staffing Solutions",
+      "location": "United States",
+      "source": "api:himalayas",
+      "link": "https://himalayas.app/companies/tasq-staffing-solutions/jobs/senior-power-bi-consultant"
+    },
+    {
+      "score": 10,
+      "role": "Remote Data Entry Clerk/File Clerk",
+      "company": "Applied Systems",
+      "location": "Canada",
+      "source": "api:himalayas",
+      "link": "https://himalayas.app/companies/applied-systems/jobs/remote-data-entry-clerk-file-clerk"
+    },
+    {
+      "score": 8,
+      "role": "Associate, Commercial SBC",
+      "company": "Ocwen Financial Corporation",
+      "location": "United States",
+      "source": "api:himalayas",
+      "link": "https://himalayas.app/companies/ocwen-financial-corporation/jobs/associate-commercial-sbc"
+    },
+    {
+      "score": 5,
+      "role": "Customer Care Rep II - Fully Remote!",
+      "company": "SKYGEN",
+      "location": "United States",
+      "source": "api:himalayas",
+      "link": "https://himalayas.app/companies/skygen/jobs/customer-care-rep-ii-fully-remote-8464079737"
+    },
+    {
+      "score": 5,
+      "role": "Manager, Appeals & Grievances Member - Remote",
+      "company": "Molina Healthcare",
+      "location": "United States",
+      "source": "api:himalayas",
+      "link": "https://himalayas.app/companies/molina-healthcare/jobs/manager-appeals-grievances-member-remote"
+    }
+  ],
+  "errors": []
+}
