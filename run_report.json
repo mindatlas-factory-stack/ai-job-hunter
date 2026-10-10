@@ -1,0 +1,205 @@
+{
+  "started_at": "2026-10-10T15:32:42+00:00",
+  "finished_at": "2026-10-10T15:43:03+00:00",
+  "duration_s": 621.1,
+  "status": "ok",
+  "scraped": 2062,
+  "too_old": 714,
+  "duplicates": 1287,
+  "prefilter_dropped": 40,
+  "prefilter_disqualified": 5,
+  "over_cap": 0,
+  "evaluated": 16,
+  "evaluation_failures": 0,
+  "matched": 0,
+  "alerts_sent": 0,
+  "alerts_failed": 0,
+  "alerts_skipped": 0,
+  "gemini_calls": 10,
+  "gemini_tokens": 20100,
+  "sources": [
+    {
+      "name": "talent",
+      "ok": true,
+      "count": 800,
+      "seconds": 48.6,
+      "error": "",
+      "sample": {
+        "title": "Call Center Team Lead",
+        "company": "jadeer",
+        "relevant": "yes"
+      }
+    },
+    {
+      "name": "linkedin",
+      "ok": true,
+      "count": 486,
+      "seconds": 305.0,
+      "error": "",
+      "sample": {
+        "title": "IVR Developer",
+        "company": "Avensys Consulting",
+        "relevant": "yes"
+      }
+    },
+    {
+      "name": "rss",
+      "ok": true,
+      "count": 271,
+      "seconds": 2.6,
+      "error": "",
+      "sample": {
+        "title": "Sparix Global.: MSD 365 Customer Relationship Management (CRM) Lead",
+        "company": "Sparix Global.",
+        "relevant": "yes"
+      }
+    },
+    {
+      "name": "search_proxy",
+      "ok": true,
+      "count": 222,
+      "seconds": 24.3,
+      "error": "",
+      "sample": {
+        "title": "VOIP Network Engineer (Avaya , Cisco , Grandstream) job at ZORD in Riyadh, Saudi Arabia",
+        "company": "",
+        "relevant": "yes"
+      }
+    },
+    {
+      "name": "telegram",
+      "ok": true,
+      "count": 192,
+      "seconds": 17.9,
+      "error": "",
+      "sample": {
+        "title": "فرصة عمل | مهندسين اتصالات حديثي التخرج",
+        "company": "",
+        "relevant": "yes"
+      }
+    },
+    {
+      "name": "job_apis",
+      "ok": true,
+      "count": 90,
+      "seconds": 1.9,
+      "error": "",
+      "sample": {
+        "title": "Senior DevOps Engineer",
+        "company": "Nextiva",
+        "relevant": "yes"
+      }
+    },
+    {
+      "name": "telegram_user",
+      "ok": true,
+      "count": 1,
+      "seconds": 4.5,
+      "error": "",
+      "sample": {
+        "title": "We're Hiring | Project Manager",
+        "company": "",
+        "relevant": "no"
+      }
+    },
+    {
+      "name": "facebook",
+      "ok": true,
+      "count": 0,
+      "seconds": 8.6,
+      "error": "",
+      "sample": {}
+    },
+    {
+      "name": "tanqeeb",
+      "ok": true,
+      "count": 0,
+      "seconds": 17.8,
+      "error": "",
+      "sample": {}
+    }
+  ],
+  "top_matches": [
+    {
+      "score": 65,
+      "role": "Service Desk & End User Support",
+      "company": "Madre Integrated Engineering",
+      "location": "Doha, Qatar",
+      "source": "linkedin",
+      "link": "https://qa.linkedin.com/jobs/view/service-desk-end-user-support-at-madre-integrated-engineering-4477215492"
+    },
+    {
+      "score": 55,
+      "role": "IT Manager | Hospitality | Kuwait",
+      "company": "hudson manpower",
+      "location": "Kuwait City, Kuwait",
+      "source": "talent:kw",
+      "link": "https://kw.talent.com/view?id=640923356445147668"
+    },
+    {
+      "score": 40,
+      "role": "IT Support Executive",
+      "company": "anavrin adviser",
+      "location": "United Arab Emirates, Germany, Other International",
+      "source": "talent:ae",
+      "link": "https://ae.talent.com/view?id=640918342333563819"
+    },
+    {
+      "score": 25,
+      "role": "Network Cable Structure Technician",
+      "company": "INFOTECH KUWAIT",
+      "location": "Kuwait",
+      "source": "telegram:gulfwalkins",
+      "link": "https://gulfwalkin.com/jobs/349072"
+    },
+    {
+      "score": 0,
+      "role": "Associate Service Desk Analyst - German Speaking",
+      "company": "Envision Employment Solutions",
+      "location": "New Cairo, Cairo, Egypt",
+      "source": "linkedin",
+      "link": "https://eg.linkedin.com/jobs/view/associate-service-desk-analyst-german-speaking-at-envision-employment-solutions-4478039839"
+    },
+    {
+      "score": 0,
+      "role": "Content Lead",
+      "company": "Bifrost Studios",
+      "location": "Denmark",
+      "source": "api:himalayas",
+      "link": "https://himalayas.app/companies/bifrost-studios/jobs/content-lead-remote-based-in-europe"
+    },
+    {
+      "score": 0,
+      "role": "Remote Psychologist Telemedicine with California License",
+      "company": "Concentra",
+      "location": "United States",
+      "source": "api:himalayas",
+      "link": "https://himalayas.app/companies/concentra/jobs/remote-psychologist-telemedicine-with-california-license"
+    },
+    {
+      "score": 0,
+      "role": "Electrical Draftsman",
+      "company": "MUTHU INTERNATIONAL",
+      "location": "United Arab Emirates",
+      "source": "telegram:gulfwalkins",
+      "link": "https://gulfwalkin.com/jobs/349059"
+    },
+    {
+      "score": 0,
+      "role": "MAINTENANCE SUPERVISOR (VEHICLE & EQUIPMENT)",
+      "company": "smartenterpriseshr@gmail.com",
+      "location": "SAUDI ARABIA",
+      "source": "telegram:gulfwalkins",
+      "link": "https://gulfwalkin.com/jobs/349066"
+    },
+    {
+      "score": 0,
+      "role": "Engineering Positions Oman Long Term Assignment",
+      "company": "JD Manpower Consultancy",
+      "location": "Oman",
+      "source": "telegram:gulfwalkins",
+      "link": "https://gulfwalkin.com/jobs/349074"
+    }
+  ],
+  "errors": []
+}
