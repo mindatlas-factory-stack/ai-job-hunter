@@ -1,0 +1,181 @@
+{
+  "started_at": "2026-10-17T21:36:23+00:00",
+  "finished_at": "2026-10-17T21:41:49+00:00",
+  "duration_s": 325.9,
+  "status": "ok",
+  "scraped": 1869,
+  "too_old": 529,
+  "duplicates": 1310,
+  "prefilter_dropped": 16,
+  "prefilter_disqualified": 6,
+  "over_cap": 0,
+  "evaluated": 8,
+  "evaluation_failures": 0,
+  "matched": 0,
+  "alerts_sent": 0,
+  "alerts_failed": 0,
+  "alerts_skipped": 0,
+  "gemini_calls": 1,
+  "gemini_tokens": 8818,
+  "sources": [
+    {
+      "name": "talent",
+      "ok": true,
+      "count": 784,
+      "seconds": 41.5,
+      "error": "",
+      "sample": {
+        "title": "Call Center Team Lead",
+        "company": "Jadeer",
+        "relevant": "yes"
+      }
+    },
+    {
+      "name": "linkedin",
+      "ok": true,
+      "count": 520,
+      "seconds": 303.5,
+      "error": "",
+      "sample": {
+        "title": "Contact Center & UC Engineer (Voice & IVR Specialist)",
+        "company": "Avensys Consulting",
+        "relevant": "yes"
+      }
+    },
+    {
+      "name": "rss",
+      "ok": true,
+      "count": 285,
+      "seconds": 2.5,
+      "error": "",
+      "sample": {
+        "title": "6sense: IT Support Specialist",
+        "company": "6sense",
+        "relevant": "yes"
+      }
+    },
+    {
+      "name": "telegram",
+      "ok": true,
+      "count": 190,
+      "seconds": 17.7,
+      "error": "",
+      "sample": {
+        "title": "IT SUPPORT ENGINEER",
+        "company": "",
+        "relevant": "yes"
+      }
+    },
+    {
+      "name": "job_apis",
+      "ok": true,
+      "count": 90,
+      "seconds": 1.6,
+      "error": "",
+      "sample": {
+        "title": "Data Engineer - US Remote",
+        "company": "PerfectServe",
+        "relevant": "yes"
+      }
+    },
+    {
+      "name": "telegram_user",
+      "ok": true,
+      "count": 0,
+      "seconds": 4.7,
+      "error": "",
+      "sample": {}
+    },
+    {
+      "name": "tanqeeb",
+      "ok": true,
+      "count": 0,
+      "seconds": 17.4,
+      "error": "",
+      "sample": {}
+    },
+    {
+      "name": "search_proxy",
+      "ok": true,
+      "count": 0,
+      "seconds": 52.4,
+      "error": "",
+      "sample": {}
+    },
+    {
+      "name": "facebook",
+      "ok": true,
+      "count": 0,
+      "seconds": 73.9,
+      "error": "",
+      "sample": {}
+    }
+  ],
+  "top_matches": [
+    {
+      "score": 35,
+      "role": "AI Automation Specialist",
+      "company": "Pavago",
+      "location": "Pakistan",
+      "source": "api:himalayas",
+      "link": "https://himalayas.app/companies/pavago/jobs/ai-automation-specialist-258000817"
+    },
+    {
+      "score": 20,
+      "role": "Associate Project Manager (Remote, Remote, US)",
+      "company": "Bureau Veritas",
+      "location": "United States",
+      "source": "api:himalayas",
+      "link": "https://himalayas.app/companies/bureau-veritas/jobs/associate-project-manager-remote-remote-us"
+    },
+    {
+      "score": 20,
+      "role": "Remote - Intake Analyst",
+      "company": "World Business Lenders",
+      "location": "Guatemala, Mexico",
+      "source": "api:himalayas",
+      "link": "https://himalayas.app/companies/world-business-lenders/jobs/remote-intake-analyst"
+    },
+    {
+      "score": 15,
+      "role": "AI Video Editor - Freelance, Remote",
+      "company": "Magic",
+      "location": "Philippines",
+      "source": "api:himalayas",
+      "link": "https://himalayas.app/companies/getmagic/jobs/ai-video-editor-freelance-remote"
+    },
+    {
+      "score": 15,
+      "role": "Cybersecurity Co-Founder / CMO (100 % remote) (m/f/d)",
+      "company": "EWOR GmbH",
+      "location": "Remote",
+      "source": "api:himalayas",
+      "link": "https://himalayas.app/companies/ewor-gmbh/jobs/cybersecurity-co-founder-cmo-100-remote-m-f-d-5387724172"
+    },
+    {
+      "score": 15,
+      "role": "Customer Service Associate - Remote Work - Great Benefits",
+      "company": "American Income Life Insurance Company",
+      "location": "United States",
+      "source": "api:himalayas",
+      "link": "https://himalayas.app/companies/american-income-life-insurance-company/jobs/customer-service-associate-remote-work-great-benefits"
+    },
+    {
+      "score": 5,
+      "role": "Performance Marketing Specialist | Remote | LATAM Only | 81180",
+      "company": "Remote Talent LATAM",
+      "location": "Colombia",
+      "source": "api:himalayas",
+      "link": "https://himalayas.app/companies/remote-talent-latam/jobs/performance-marketing-specialist-remote-latam-only-81180"
+    },
+    {
+      "score": 0,
+      "role": "Car Mechanic & Car Auto Electrician",
+      "company": "V.G. Consultancy",
+      "location": "Saudi Arabia",
+      "source": "telegram:gulfwalkins",
+      "link": "https://gulfwalkin.com/jobs/349629"
+    }
+  ],
+  "errors": []
+}
