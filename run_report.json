@@ -1,0 +1,205 @@
+{
+  "started_at": "2026-10-24T11:51:54+00:00",
+  "finished_at": "2026-10-24T12:00:31+00:00",
+  "duration_s": 517.1,
+  "status": "ok",
+  "scraped": 2094,
+  "too_old": 705,
+  "duplicates": 1312,
+  "prefilter_dropped": 39,
+  "prefilter_disqualified": 7,
+  "over_cap": 0,
+  "evaluated": 31,
+  "evaluation_failures": 0,
+  "matched": 2,
+  "alerts_sent": 2,
+  "alerts_failed": 0,
+  "alerts_skipped": 0,
+  "gemini_calls": 11,
+  "gemini_tokens": 36145,
+  "sources": [
+    {
+      "name": "talent",
+      "ok": true,
+      "count": 794,
+      "seconds": 53.5,
+      "error": "",
+      "sample": {
+        "title": "Call Center Team Lead",
+        "company": "Jadeer",
+        "relevant": "yes"
+      }
+    },
+    {
+      "name": "linkedin",
+      "ok": true,
+      "count": 486,
+      "seconds": 311.8,
+      "error": "",
+      "sample": {
+        "title": "IVR Developer - Design & Development, Create and maintain call flows, IVR scripts, and VoiceXML (VXML) applications, Integrate IVR systems, Configure and maintain platforms",
+        "company": "Avensys Consulting",
+        "relevant": "yes"
+      }
+    },
+    {
+      "name": "rss",
+      "ok": true,
+      "count": 295,
+      "seconds": 2.4,
+      "error": "",
+      "sample": {
+        "title": "6sense: IT Support Specialist",
+        "company": "6sense",
+        "relevant": "yes"
+      }
+    },
+    {
+      "name": "search_proxy",
+      "ok": true,
+      "count": 229,
+      "seconds": 24.0,
+      "error": "",
+      "sample": {
+        "title": "VOIP Network Engineer (Avaya , Cisco , Grandstream) job at ZORD in Riyadh, Saudi Arabia",
+        "company": "",
+        "relevant": "yes"
+      }
+    },
+    {
+      "name": "telegram",
+      "ok": true,
+      "count": 194,
+      "seconds": 17.6,
+      "error": "",
+      "sample": {
+        "title": "IT SUPPORT ENGINEER",
+        "company": "",
+        "relevant": "yes"
+      }
+    },
+    {
+      "name": "job_apis",
+      "ok": true,
+      "count": 90,
+      "seconds": 1.8,
+      "error": "",
+      "sample": {
+        "title": "Patient Onboarding Associate- Call Center (part time hours)",
+        "company": "Luna Physical Therapy",
+        "relevant": "yes"
+      }
+    },
+    {
+      "name": "telegram_user",
+      "ok": true,
+      "count": 6,
+      "seconds": 5.1,
+      "error": "",
+      "sample": {
+        "title": "SBS Specialized Business Solutions is Hiring | Multiple IT & Technical Positions – Saudi Arabia 🇸🇦",
+        "company": "",
+        "relevant": "yes"
+      }
+    },
+    {
+      "name": "facebook",
+      "ok": true,
+      "count": 0,
+      "seconds": 8.4,
+      "error": "",
+      "sample": {}
+    },
+    {
+      "name": "tanqeeb",
+      "ok": true,
+      "count": 0,
+      "seconds": 16.9,
+      "error": "",
+      "sample": {}
+    }
+  ],
+  "top_matches": [
+    {
+      "score": 75,
+      "role": "Application Support Analyst",
+      "company": "Kenz Middle East For Shipping and Navigation Services",
+      "location": "Abu Dhabi Emirate, United Arab Emirates",
+      "source": "linkedin",
+      "link": "https://ae.linkedin.com/jobs/view/application-support-analyst-at-kenz-middle-east-for-shipping-and-navigation-services-4481053044"
+    },
+    {
+      "score": 75,
+      "role": "Junior Linux Administrator",
+      "company": "Nair Systems LLC",
+      "location": "Doha, Qatar",
+      "source": "linkedin",
+      "link": "https://qa.linkedin.com/jobs/view/junior-linux-administrator-at-nair-systems-llc-4482622850"
+    },
+    {
+      "score": 65,
+      "role": "English Technical Support | South Africa Account",
+      "company": "ETISAL International Group",
+      "location": "Cairo, Egypt",
+      "source": "linkedin",
+      "link": "https://eg.linkedin.com/jobs/view/english-technical-support-south-africa-account-at-etisal-international-group-4483323372"
+    },
+    {
+      "score": 55,
+      "role": "Technical Support Specialist",
+      "company": "Al-Watania Information Systems",
+      "location": "Riyadh, Riyadh Province, SA",
+      "source": "talent:sa",
+      "link": "https://sa.talent.com/view?id=642428558283057785"
+    },
+    {
+      "score": 35,
+      "role": "Customer Support Representative",
+      "company": "NeoWork",
+      "location": "Colombia",
+      "source": "api:himalayas",
+      "link": "https://himalayas.app/companies/neowork/jobs/customer-support-representative-5525916754"
+    },
+    {
+      "score": 35,
+      "role": "ICT Design Engineer (Information and Communications Technology)",
+      "company": "Ehvert Engineering Inc.",
+      "location": "Serbia",
+      "source": "api:himalayas",
+      "link": "https://himalayas.app/companies/ehvert-engineering-inc/jobs/ict-design-engineer-information-and-communications-technology-9942637419"
+    },
+    {
+      "score": 30,
+      "role": "Customer Success Engineer, Sydney",
+      "company": "Cribl",
+      "location": "Sydney, Australia",
+      "source": "rss:WeWorkRemotely-Support",
+      "link": "https://weworkremotely.com/remote-jobs/cribl-customer-success-engineer-sydney"
+    },
+    {
+      "score": 30,
+      "role": "Senior Full Stack Developer (Python, React)",
+      "company": "PwC ETIC",
+      "location": "Cairo, Egypt",
+      "source": "telegram_user:OPENVACANCIES2022",
+      "link": "https://t.me/OPENVACANCIES2022/5514"
+    },
+    {
+      "score": 25,
+      "role": "Product Builder, Merchant Portal",
+      "company": "North American Bancard",
+      "location": "United States",
+      "source": "api:himalayas",
+      "link": "https://himalayas.app/companies/north-american-bancard/jobs/product-builder-merchant-portal"
+    },
+    {
+      "score": 0,
+      "role": "Multiple IT & Technical Positions",
+      "company": "SBS - Specialized Business Solutions",
+      "location": "Riyadh, Saudi Arabia",
+      "source": "telegram_user:OPENVACANCIES2022",
+      "link": "https://t.me/OPENVACANCIES2022/5515"
+    }
+  ],
+  "errors": []
+}
