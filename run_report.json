@@ -1,0 +1,205 @@
+{
+  "started_at": "2026-10-31T08:40:43+00:00",
+  "finished_at": "2026-10-31T08:47:57+00:00",
+  "duration_s": 434.5,
+  "status": "ok",
+  "scraped": 2085,
+  "too_old": 747,
+  "duplicates": 1212,
+  "prefilter_dropped": 92,
+  "prefilter_disqualified": 10,
+  "over_cap": 0,
+  "evaluated": 24,
+  "evaluation_failures": 0,
+  "matched": 1,
+  "alerts_sent": 1,
+  "alerts_failed": 0,
+  "alerts_skipped": 0,
+  "gemini_calls": 3,
+  "gemini_tokens": 27188,
+  "sources": [
+    {
+      "name": "talent",
+      "ok": true,
+      "count": 796,
+      "seconds": 63.3,
+      "error": "",
+      "sample": {
+        "title": "Call Center Team Lead",
+        "company": "Jadeer",
+        "relevant": "yes"
+      }
+    },
+    {
+      "name": "linkedin",
+      "ok": true,
+      "count": 483,
+      "seconds": 301.5,
+      "error": "",
+      "sample": {
+        "title": "SIP/VoIP Engineer",
+        "company": "Sarj | سرج",
+        "relevant": "yes"
+      }
+    },
+    {
+      "name": "rss",
+      "ok": true,
+      "count": 308,
+      "seconds": 2.5,
+      "error": "",
+      "sample": {
+        "title": "6sense: IT Support Specialist",
+        "company": "6sense",
+        "relevant": "yes"
+      }
+    },
+    {
+      "name": "search_proxy",
+      "ok": true,
+      "count": 213,
+      "seconds": 23.9,
+      "error": "",
+      "sample": {
+        "title": "VoIP Network Engineer job at Arkan Integrated Solutions in Maadi, Cairo",
+        "company": "",
+        "relevant": "yes"
+      }
+    },
+    {
+      "name": "telegram",
+      "ok": true,
+      "count": 190,
+      "seconds": 17.9,
+      "error": "",
+      "sample": {
+        "title": "Mobi Egypt is Hiring",
+        "company": "",
+        "relevant": "yes"
+      }
+    },
+    {
+      "name": "job_apis",
+      "ok": true,
+      "count": 90,
+      "seconds": 2.7,
+      "error": "",
+      "sample": {
+        "title": "Business Travel Consultant (Berlin or Remote) (Geschäftsreiseexperte)",
+        "company": "TripActions",
+        "relevant": "yes"
+      }
+    },
+    {
+      "name": "telegram_user",
+      "ok": true,
+      "count": 5,
+      "seconds": 4.2,
+      "error": "",
+      "sample": {
+        "title": "Immediately hiring in Egypt!",
+        "company": "",
+        "relevant": "yes"
+      }
+    },
+    {
+      "name": "facebook",
+      "ok": true,
+      "count": 0,
+      "seconds": 9.4,
+      "error": "",
+      "sample": {}
+    },
+    {
+      "name": "tanqeeb",
+      "ok": true,
+      "count": 0,
+      "seconds": 17.5,
+      "error": "",
+      "sample": {}
+    }
+  ],
+  "top_matches": [
+    {
+      "score": 82,
+      "role": "IT Support Assistant / IT Help Desk Technician / IT Support Engineer",
+      "company": "African Consulting Club",
+      "location": "Masqaţ, Oman",
+      "source": "linkedin",
+      "link": "https://om.linkedin.com/jobs/view/it-support-assistant-it-help-desk-technician-it-support-engineer-at-african-consulting-club-4485145636"
+    },
+    {
+      "score": 62,
+      "role": "Technical Support Engineer, Triage & Discovery",
+      "company": "Alloy",
+      "location": "Remote",
+      "source": "rss:WeWorkRemotely-Support",
+      "link": "https://weworkremotely.com/remote-jobs/alloy-technical-support-engineer-triage-discovery"
+    },
+    {
+      "score": 40,
+      "role": "Senior Assigned Support Engineer",
+      "company": "GitLab",
+      "location": "EMEA",
+      "source": "rss:Jobicy",
+      "link": "https://jobicy.com/jobs/158059-senior-assigned-support-engineer-emea"
+    },
+    {
+      "score": 35,
+      "role": "Product Support Engineer – EMEA",
+      "company": "Ashby",
+      "location": "EMEA",
+      "source": "rss:Jobicy",
+      "link": "https://jobicy.com/jobs/158056-product-support-engineer-emea-2"
+    },
+    {
+      "score": 35,
+      "role": "IT Support Specialist II",
+      "company": "Hims & Hers",
+      "location": "Unknown",
+      "source": "rss:Jobicy",
+      "link": "https://jobicy.com/jobs/158038-it-support-specialist-ii"
+    },
+    {
+      "score": 35,
+      "role": "Full-Time Full-Stack Developer & Automation Engineer",
+      "company": "Liliang Group",
+      "location": "Egypt",
+      "source": "telegram_user:OPENVACANCIES2022",
+      "link": "https://t.me/OPENVACANCIES2022/5557"
+    },
+    {
+      "score": 35,
+      "role": "Remote IT Technician",
+      "company": "Myanmar Oasis Manufacturing Co.,Ltd.",
+      "location": "Dubai, United Arab Emirates",
+      "source": "linkedin",
+      "link": "https://ae.linkedin.com/jobs/view/remote-it-technician-at-myanmar-oasis-manufacturing-co-ltd-4484816976"
+    },
+    {
+      "score": 30,
+      "role": "Technical Support Engineer I – Mexico",
+      "company": "Samsara",
+      "location": "Mexico",
+      "source": "rss:Jobicy",
+      "link": "https://jobicy.com/jobs/158071-technical-support-engineer-i-mexico"
+    },
+    {
+      "score": 30,
+      "role": "Automation Specialist",
+      "company": "Welocalize",
+      "location": "Mexico",
+      "source": "api:himalayas",
+      "link": "https://himalayas.app/companies/welocalize/jobs/automation-specialist"
+    },
+    {
+      "score": 20,
+      "role": "Design Engineer / Network Engineer",
+      "company": "MAJDA TUNISIA HOLDING",
+      "location": "Masqaţ, Oman",
+      "source": "linkedin",
+      "link": "https://om.linkedin.com/jobs/view/design-engineer-network-engineer-at-majda-tunisia-holding-4485131699"
+    }
+  ],
+  "errors": []
+}
