@@ -1,0 +1,201 @@
+{
+  "started_at": "2026-11-07T11:31:14+00:00",
+  "finished_at": "2026-11-07T11:38:19+00:00",
+  "duration_s": 424.6,
+  "status": "ok",
+  "scraped": 2102,
+  "too_old": 723,
+  "duplicates": 1277,
+  "prefilter_dropped": 50,
+  "prefilter_disqualified": 12,
+  "over_cap": 0,
+  "evaluated": 40,
+  "evaluation_failures": 0,
+  "matched": 0,
+  "alerts_sent": 0,
+  "alerts_failed": 0,
+  "alerts_skipped": 0,
+  "gemini_calls": 5,
+  "gemini_tokens": 43557,
+  "sources": [
+    {
+      "name": "talent",
+      "ok": true,
+      "count": 824,
+      "seconds": 43.7,
+      "error": "",
+      "sample": {
+        "title": "Call Center Team Lead",
+        "company": "Jadeer",
+        "relevant": "yes"
+      }
+    },
+    {
+      "name": "linkedin",
+      "ok": true,
+      "count": 482,
+      "seconds": 305.7,
+      "error": "",
+      "sample": {
+        "title": "UC Infrastructure Engineer (IVR Integration)",
+        "company": "Avensys Consulting",
+        "relevant": "yes"
+      }
+    },
+    {
+      "name": "rss",
+      "ok": true,
+      "count": 309,
+      "seconds": 2.8,
+      "error": "",
+      "sample": {
+        "title": "6sense: IT Support Specialist",
+        "company": "6sense",
+        "relevant": "yes"
+      }
+    },
+    {
+      "name": "search_proxy",
+      "ok": true,
+      "count": 203,
+      "seconds": 24.0,
+      "error": "",
+      "sample": {
+        "title": "VOIP Network Engineer (Avaya , Cisco , Grandstream) job at ZORD in Riyadh, Saudi Arabia",
+        "company": "",
+        "relevant": "yes"
+      }
+    },
+    {
+      "name": "telegram",
+      "ok": true,
+      "count": 194,
+      "seconds": 17.5,
+      "error": "",
+      "sample": {
+        "title": "Mobi Egypt is Hiring",
+        "company": "",
+        "relevant": "yes"
+      }
+    },
+    {
+      "name": "job_apis",
+      "ok": true,
+      "count": 90,
+      "seconds": 2.1,
+      "error": "",
+      "sample": {
+        "title": "Senior Software Engineer",
+        "company": "Vonage",
+        "relevant": "yes"
+      }
+    },
+    {
+      "name": "telegram_user",
+      "ok": true,
+      "count": 0,
+      "seconds": 5.6,
+      "error": "",
+      "sample": {}
+    },
+    {
+      "name": "facebook",
+      "ok": true,
+      "count": 0,
+      "seconds": 9.8,
+      "error": "",
+      "sample": {}
+    },
+    {
+      "name": "tanqeeb",
+      "ok": true,
+      "count": 0,
+      "seconds": 17.3,
+      "error": "",
+      "sample": {}
+    }
+  ],
+  "top_matches": [
+    {
+      "score": 58,
+      "role": "IT Support Enginr / System Administrator / Helpdesk Enginr",
+      "company": "Mighty Master Marketing",
+      "location": "Masqaţ, Oman",
+      "source": "linkedin",
+      "link": "https://om.linkedin.com/jobs/view/it-support-enginr-system-administrator-helpdesk-enginr-at-mighty-master-marketing-4486642555"
+    },
+    {
+      "score": 40,
+      "role": "Infrastructure Software Engineer",
+      "company": "Nebius",
+      "location": "USA",
+      "source": "api:jobicy",
+      "link": "https://jobicy.com/jobs/159464-infrastructure-software-engineer-2"
+    },
+    {
+      "score": 35,
+      "role": "Senior Software Engineer",
+      "company": "Vonage",
+      "location": "Poland",
+      "source": "api:jobicy",
+      "link": "https://jobicy.com/jobs/158781-senior-software-engineer-21"
+    },
+    {
+      "score": 35,
+      "role": "IT Support Specialist",
+      "company": "Unity Star Import and Export FZE LLC",
+      "location": "Dubai, Dubai, United Arab Emirates",
+      "source": "linkedin",
+      "link": "https://ae.linkedin.com/jobs/view/it-support-specialist-at-unity-star-import-and-export-fze-llc-4487394921"
+    },
+    {
+      "score": 35,
+      "role": "Linux Administrator",
+      "company": "Galaxi Consulting Group",
+      "location": "Cairo, Egypt",
+      "source": "linkedin",
+      "link": "https://eg.linkedin.com/jobs/view/linux-administrator-at-galaxi-consulting-group-4488706300"
+    },
+    {
+      "score": 35,
+      "role": "Technical Support Manager / Systems Engineer / IT Solutions Architect",
+      "company": "Arabian Anti-Piracy Alliance Inc. US S-Corp (AAA)",
+      "location": "Dubai, United Arab Emirates",
+      "source": "linkedin",
+      "link": "https://ae.linkedin.com/jobs/view/technical-support-manager-systems-engineer-it-solutions-architect-at-arabian-anti-piracy-alliance-inc-us-s-corp-aaa-4486633738"
+    },
+    {
+      "score": 35,
+      "role": "Network Engineer",
+      "company": "NOK Human Capital",
+      "location": "Riyadh, Saudi Arabia",
+      "source": "linkedin",
+      "link": "https://sa.linkedin.com/jobs/view/network-engineer-at-nok-human-capital-4488711377"
+    },
+    {
+      "score": 30,
+      "role": "Senior Software Engineer - Python/Golang - Kubernetes",
+      "company": "Canonical",
+      "location": "EMEA, LATAM, Canada, USA",
+      "source": "api:jobicy",
+      "link": "https://jobicy.com/jobs/159482-senior-software-engineer-python-golang-kubernetes"
+    },
+    {
+      "score": 30,
+      "role": "Senior Software Engineer - Digital Workplace",
+      "company": "Canonical",
+      "location": "EMEA",
+      "source": "api:jobicy",
+      "link": "https://jobicy.com/jobs/159481-senior-software-engineer-digital-workplace"
+    },
+    {
+      "score": 30,
+      "role": "Splunk Administrator",
+      "company": "Launchpad Technologies",
+      "location": "LATAM",
+      "source": "api:jobicy",
+      "link": "https://jobicy.com/jobs/159460-splunk-administrator"
+    }
+  ],
+  "errors": []
+}
