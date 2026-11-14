@@ -1,0 +1,201 @@
+{
+  "started_at": "2026-11-14T15:35:47+00:00",
+  "finished_at": "2026-11-14T15:43:33+00:00",
+  "duration_s": 466.0,
+  "status": "ok",
+  "scraped": 2115,
+  "too_old": 711,
+  "duplicates": 1256,
+  "prefilter_dropped": 97,
+  "prefilter_disqualified": 13,
+  "over_cap": 0,
+  "evaluated": 38,
+  "evaluation_failures": 0,
+  "matched": 0,
+  "alerts_sent": 0,
+  "alerts_failed": 0,
+  "alerts_skipped": 0,
+  "gemini_calls": 10,
+  "gemini_tokens": 41705,
+  "sources": [
+    {
+      "name": "talent",
+      "ok": true,
+      "count": 821,
+      "seconds": 46.0,
+      "error": "",
+      "sample": {
+        "title": "Call Center Team Lead",
+        "company": "Jadeer",
+        "relevant": "yes"
+      }
+    },
+    {
+      "name": "linkedin",
+      "ok": true,
+      "count": 506,
+      "seconds": 306.1,
+      "error": "",
+      "sample": {
+        "title": "Technical Support Specialist",
+        "company": "List International Group",
+        "relevant": "yes"
+      }
+    },
+    {
+      "name": "rss",
+      "ok": true,
+      "count": 321,
+      "seconds": 2.3,
+      "error": "",
+      "sample": {
+        "title": "EdgeQ Technologies Private Limited: Help Desk Analyst",
+        "company": "EdgeQ Technologies Private Limited",
+        "relevant": "yes"
+      }
+    },
+    {
+      "name": "search_proxy",
+      "ok": true,
+      "count": 201,
+      "seconds": 24.0,
+      "error": "",
+      "sample": {
+        "title": "VOIP Network Engineer (Avaya , Cisco , Grandstream) job at ZORD in Riyadh, Saudi Arabia",
+        "company": "",
+        "relevant": "yes"
+      }
+    },
+    {
+      "name": "telegram",
+      "ok": true,
+      "count": 196,
+      "seconds": 17.3,
+      "error": "",
+      "sample": {
+        "title": "Mobi Egypt is Hiring",
+        "company": "",
+        "relevant": "yes"
+      }
+    },
+    {
+      "name": "job_apis",
+      "ok": true,
+      "count": 70,
+      "seconds": 1.2,
+      "error": "",
+      "sample": {
+        "title": "Python Finance Developer (100% Remote)",
+        "company": "UBQ Group",
+        "relevant": "yes"
+      }
+    },
+    {
+      "name": "telegram_user",
+      "ok": true,
+      "count": 0,
+      "seconds": 4.7,
+      "error": "",
+      "sample": {}
+    },
+    {
+      "name": "facebook",
+      "ok": true,
+      "count": 0,
+      "seconds": 9.1,
+      "error": "",
+      "sample": {}
+    },
+    {
+      "name": "tanqeeb",
+      "ok": true,
+      "count": 0,
+      "seconds": 17.0,
+      "error": "",
+      "sample": {}
+    }
+  ],
+  "top_matches": [
+    {
+      "score": 65,
+      "role": "IT Systems Engineer",
+      "company": "Baseten",
+      "location": "USA",
+      "source": "api:jobicy",
+      "link": "https://jobicy.com/jobs/162141-it-systems-engineer"
+    },
+    {
+      "score": 55,
+      "role": "Website Developer & IT Support Specialist",
+      "company": "Royal Class Travel & Tourism",
+      "location": "Abu Dhabi, Abu Dhabi Emirate, United Arab Emirates",
+      "source": "linkedin",
+      "link": "https://ae.linkedin.com/jobs/view/website-developer-it-support-specialist-at-royal-class-travel-tourism-4489326573"
+    },
+    {
+      "score": 40,
+      "role": "IT Support Assistant",
+      "company": "Ofman Properties",
+      "location": "Dubai, United Arab Emirates",
+      "source": "linkedin",
+      "link": "https://ae.linkedin.com/jobs/view/we%E2%80%99re-hiring-it-support-assistant-at-ofman-properties-4489348197"
+    },
+    {
+      "score": 35,
+      "role": "Application Support Engineer OR Platform Administration Engineer(SQL,ER/Studio & Azure)",
+      "company": "Unknown",
+      "location": "Unknown",
+      "source": "search:bayt.com",
+      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQMEY3bDgyLUM3cnUycGp5YWtDb2dVVG9qUnJfbzdmcks0SVBFSFdEUDBEdDdteUY2TC1kZ0pkd3NVWnE3VE5CclF4TzZ4ZGRSRHZZVTcxQ3JVeGpfS3pYQTVhYWRiN01oNW9JWWZPTS14S1RSck5QUXpCSVdaSDZfVGRNSFhnQ0U5a2VnTlRxdUc1VEN6VHppS0UxWFpBOTdCSEwtM2hWdjgyYWtmd0UzSEJacWZ6Zmk5c3U1UkMtSEttemNYd0M0RA?oc=5"
+    },
+    {
+      "score": 35,
+      "role": "Senior Windows Administrator",
+      "company": "Peraton",
+      "location": "United States",
+      "source": "api:himalayas",
+      "link": "https://himalayas.app/companies/peraton/jobs/senior-windows-administrator"
+    },
+    {
+      "score": 30,
+      "role": "Python Finance Developer (100% Remote)",
+      "company": "UBQ Group",
+      "location": "Argentina",
+      "source": "api:himalayas",
+      "link": "https://himalayas.app/companies/ubq-group/jobs/python-finance-developer-100-remote-4656485859"
+    },
+    {
+      "score": 30,
+      "role": "Odoo Techno Functional Consultant",
+      "company": "Unknown",
+      "location": "Unknown",
+      "source": "search:naukrigulf.com",
+      "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxOZjlPejQxYmRNN01BSzh2aHpiQk55eDVGRjh1T2tfU19rc1NSOGZGWDExV2tqRWlTM2c0eF91MldYNUdhQV9vODFfbkhTamVGdXpFc2daeHhLaE5GVkRYM2hjYW02eG5BMzdqTlNiclpzdVVfQVJYelhUWHZZNnBmcEsyQlpacEI2allZbDN4SWgwQ0F0ZXZsMnkzNG1DNXdYbXFSSGtBZjBXSEk2anFDNmo5aWRQdEVXckJsOGJnVl9xcTRJX3gwdE5heWRfNUs5T3kyR1BNZ0szUG91TTRacF8xbGVnUEM5?oc=5"
+    },
+    {
+      "score": 25,
+      "role": "Senior Software Engineer, Edge Security",
+      "company": "Fastly",
+      "location": "Canada, USA",
+      "source": "api:jobicy",
+      "link": "https://jobicy.com/jobs/162147-senior-software-engineer-edge-security-2"
+    },
+    {
+      "score": 25,
+      "role": "Sales Operations Analyst",
+      "company": "Clipboard",
+      "location": "Canada, USA",
+      "source": "api:jobicy",
+      "link": "https://jobicy.com/jobs/162135-sales-operations-analyst-3"
+    },
+    {
+      "score": 25,
+      "role": "Senior Data Scientist - Product",
+      "company": "Apollo.io",
+      "location": "USA",
+      "source": "api:jobicy",
+      "link": "https://jobicy.com/jobs/162124-senior-data-scientist-product-3"
+    }
+  ],
+  "errors": []
+}
