@@ -1,0 +1,205 @@
+{
+  "started_at": "2026-11-21T17:43:17+00:00",
+  "finished_at": "2026-11-21T17:54:41+00:00",
+  "duration_s": 683.7,
+  "status": "ok",
+  "scraped": 2113,
+  "too_old": 719,
+  "duplicates": 1250,
+  "prefilter_dropped": 89,
+  "prefilter_disqualified": 20,
+  "over_cap": 0,
+  "evaluated": 35,
+  "evaluation_failures": 0,
+  "matched": 0,
+  "alerts_sent": 0,
+  "alerts_failed": 0,
+  "alerts_skipped": 0,
+  "gemini_calls": 13,
+  "gemini_tokens": 39890,
+  "sources": [
+    {
+      "name": "talent",
+      "ok": true,
+      "count": 808,
+      "seconds": 39.5,
+      "error": "",
+      "sample": {
+        "title": "Call Center Team Lead",
+        "company": "Jadeer",
+        "relevant": "yes"
+      }
+    },
+    {
+      "name": "linkedin",
+      "ok": true,
+      "count": 508,
+      "seconds": 306.5,
+      "error": "",
+      "sample": {
+        "title": "SIP/VoIP Engineer",
+        "company": "Sarj | سرج",
+        "relevant": "yes"
+      }
+    },
+    {
+      "name": "rss",
+      "ok": true,
+      "count": 332,
+      "seconds": 2.1,
+      "error": "",
+      "sample": {
+        "title": "Resolv.Global: Bilingual Customer Support Specialist (English/French-Canadian)",
+        "company": "Resolv.Global",
+        "relevant": "yes"
+      }
+    },
+    {
+      "name": "search_proxy",
+      "ok": true,
+      "count": 200,
+      "seconds": 24.0,
+      "error": "",
+      "sample": {
+        "title": "VOIP Network Engineer (Avaya , Cisco , Grandstream) job at ZORD in Riyadh, Saudi Arabia",
+        "company": "",
+        "relevant": "yes"
+      }
+    },
+    {
+      "name": "telegram",
+      "ok": true,
+      "count": 194,
+      "seconds": 18.4,
+      "error": "",
+      "sample": {
+        "title": "Mobi Egypt is Hiring",
+        "company": "",
+        "relevant": "yes"
+      }
+    },
+    {
+      "name": "job_apis",
+      "ok": true,
+      "count": 70,
+      "seconds": 2.7,
+      "error": "",
+      "sample": {
+        "title": "Communication Specialist",
+        "company": "NAVEX",
+        "relevant": "yes"
+      }
+    },
+    {
+      "name": "telegram_user",
+      "ok": true,
+      "count": 1,
+      "seconds": 4.4,
+      "error": "",
+      "sample": {
+        "title": "Business Wheel located in Egypt is hiring Principal Odoo Consultant(Remote)",
+        "company": "",
+        "relevant": "yes"
+      }
+    },
+    {
+      "name": "facebook",
+      "ok": true,
+      "count": 0,
+      "seconds": 10.2,
+      "error": "",
+      "sample": {}
+    },
+    {
+      "name": "tanqeeb",
+      "ok": true,
+      "count": 0,
+      "seconds": 16.7,
+      "error": "",
+      "sample": {}
+    }
+  ],
+  "top_matches": [
+    {
+      "score": 55,
+      "role": "Technical Support Specialist",
+      "company": "Nash",
+      "location": "US East Coast",
+      "source": "rss:Jobicy",
+      "link": "https://jobicy.com/jobs/163621-technical-support-specialist-us-east-coast"
+    },
+    {
+      "score": 45,
+      "role": "Payment Application Support Analyst - Banking",
+      "company": "VAM Systems",
+      "location": "Dubai, United Arab Emirates",
+      "source": "talent:ae",
+      "link": "https://ae.talent.com/view?id=647069149846121249"
+    },
+    {
+      "score": 45,
+      "role": "Odoo Developer",
+      "company": "Smart Technology Solutions",
+      "location": "Cairo, Cairo Governorate, EG",
+      "source": "talent:eg",
+      "link": "https://eg.talent.com/view?id=646790606504201492"
+    },
+    {
+      "score": 45,
+      "role": "Solutions Engineer(Python/Airflow)",
+      "company": "EDB",
+      "location": "Unknown",
+      "source": "rss:Jobicy",
+      "link": "https://jobicy.com/jobs/163623-solutions-engineerpython-airflow"
+    },
+    {
+      "score": 42,
+      "role": "Principal Odoo Consultant",
+      "company": "Business Wheel",
+      "location": "Egypt",
+      "source": "telegram_user:OPENVACANCIES2022",
+      "link": "https://t.me/OPENVACANCIES2022/5599"
+    },
+    {
+      "score": 40,
+      "role": "IT Support Engineer",
+      "company": "Marine Capabilities",
+      "location": "United Arab Emirates",
+      "source": "search:bayt.com",
+      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9lNUJ5emhwRGRDbFpYRzhaMEdfVEpaX2ZFQTE0aHk5OG5YUVpNT0dmR09Gc2NlUlZTRVpQZEZVXzFtRGxqUmFwV0FoTTlIRmFYUF9BeVZhUG9HeGVZZWY1bDlVdFZiUVZLdklBR2NKYw?oc=5"
+    },
+    {
+      "score": 40,
+      "role": "Staff Tech Enablement Engineer, B2B Operations",
+      "company": "CookUnity",
+      "location": "LATAM",
+      "source": "api:jobicy",
+      "link": "https://jobicy.com/jobs/163688-staff-tech-enablement-engineer-b2b-operations"
+    },
+    {
+      "score": 35,
+      "role": "Senior Lead – VOIP Engineer",
+      "company": "Sprinklr",
+      "location": "Poland",
+      "source": "search:bayt.com",
+      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE12NGlsMndBT2pJY1phcll2TXRCMmZabF90VXlUR1ExeUtrMElrTmlrNkFpYlpQYjF2M0NRb0toUktwc1dZbFI5MG5teHEyNkpHVll5TmgtT3E0SnhQYm1DRHNHSnNCeG92SFI5OUtfeFJQR1NjSXFzRjU0cw?oc=5"
+    },
+    {
+      "score": 35,
+      "role": "Network Engineer",
+      "company": "L3Harris Technologies",
+      "location": "Abu Dhabi, Abu Dhabi Emirate, United Arab Emirates",
+      "source": "linkedin",
+      "link": "https://ae.linkedin.com/jobs/view/network-engineer-at-l3harris-technologies-4492985354"
+    },
+    {
+      "score": 35,
+      "role": "Loyalty Technical Support Resource",
+      "company": "Synechron",
+      "location": "Dubai, United Arab Emirates",
+      "source": "linkedin",
+      "link": "https://ae.linkedin.com/jobs/view/loyalty-technical-support-resource-at-synechron-4490460489"
+    }
+  ],
+  "errors": []
+}
