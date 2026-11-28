@@ -1,0 +1,201 @@
+{
+  "started_at": "2026-11-28T12:09:41+00:00",
+  "finished_at": "2026-11-28T12:15:47+00:00",
+  "duration_s": 365.3,
+  "status": "ok",
+  "scraped": 2021,
+  "too_old": 608,
+  "duplicates": 1300,
+  "prefilter_dropped": 69,
+  "prefilter_disqualified": 19,
+  "over_cap": 0,
+  "evaluated": 25,
+  "evaluation_failures": 0,
+  "matched": 0,
+  "alerts_sent": 0,
+  "alerts_failed": 0,
+  "alerts_skipped": 0,
+  "gemini_calls": 4,
+  "gemini_tokens": 29495,
+  "sources": [
+    {
+      "name": "talent",
+      "ok": true,
+      "count": 821,
+      "seconds": 52.7,
+      "error": "",
+      "sample": {
+        "title": "VoIP & Contact Center Lead — FX/Forex, Dubai Relocation",
+        "company": "TopTalent Recruitment - Careers",
+        "relevant": "yes"
+      }
+    },
+    {
+      "name": "linkedin",
+      "ok": true,
+      "count": 498,
+      "seconds": 309.2,
+      "error": "",
+      "sample": {
+        "title": "IVR Developer",
+        "company": "Avensys Consulting",
+        "relevant": "yes"
+      }
+    },
+    {
+      "name": "rss",
+      "ok": true,
+      "count": 442,
+      "seconds": 2.5,
+      "error": "",
+      "sample": {
+        "title": "Resolv.Global: Bilingual Customer Support Specialist (English/French-Canadian)",
+        "company": "Resolv.Global",
+        "relevant": "yes"
+      }
+    },
+    {
+      "name": "telegram",
+      "ok": true,
+      "count": 189,
+      "seconds": 18.0,
+      "error": "",
+      "sample": {
+        "title": "We’re Hiring: Core Engineer (CS/PS/IMS)",
+        "company": "",
+        "relevant": "yes"
+      }
+    },
+    {
+      "name": "job_apis",
+      "ok": true,
+      "count": 70,
+      "seconds": 1.4,
+      "error": "",
+      "sample": {
+        "title": "Staff Corporate Network Engineer | CorpIT",
+        "company": "Wellhub",
+        "relevant": "yes"
+      }
+    },
+    {
+      "name": "telegram_user",
+      "ok": true,
+      "count": 1,
+      "seconds": 4.4,
+      "error": "",
+      "sample": {
+        "title": "مصنع كمبرا في بني سويف: خطة لإنتاج 4.5 مليون كمبروسر سنوياً وتقليل الواردات",
+        "company": "",
+        "relevant": "no"
+      }
+    },
+    {
+      "name": "tanqeeb",
+      "ok": true,
+      "count": 0,
+      "seconds": 16.5,
+      "error": "",
+      "sample": {}
+    },
+    {
+      "name": "search_proxy",
+      "ok": true,
+      "count": 0,
+      "seconds": 49.4,
+      "error": "",
+      "sample": {}
+    },
+    {
+      "name": "facebook",
+      "ok": true,
+      "count": 0,
+      "seconds": 64.3,
+      "error": "",
+      "sample": {}
+    }
+  ],
+  "top_matches": [
+    {
+      "score": 45,
+      "role": "Presales Engineer",
+      "company": "Twilio",
+      "location": "Ireland, Spain, UK",
+      "source": "api:jobicy",
+      "link": "https://jobicy.com/jobs/164600-presales-engineer-2"
+    },
+    {
+      "score": 35,
+      "role": "Contact Center Team Leader",
+      "company": "Stylo",
+      "location": "Dubai, United Arab Emirates",
+      "source": "talent:ae",
+      "link": "https://ae.talent.com/view?id=647894328941947681"
+    },
+    {
+      "score": 35,
+      "role": "Contact Center Team Lead: Elevate Customer Experience",
+      "company": "etisalat talent",
+      "location": "Ajman, United Arab Emirates",
+      "source": "talent:ae",
+      "link": "https://ae.talent.com/view?id=647155124772476517"
+    },
+    {
+      "score": 35,
+      "role": "Linux Administrator",
+      "company": "Dautom",
+      "location": "Cairo, Egypt",
+      "source": "linkedin",
+      "link": "https://eg.linkedin.com/jobs/view/linux-administrator-at-dautom-4495364599"
+    },
+    {
+      "score": 30,
+      "role": "WordPress Advanced Support Guide",
+      "company": "GoDaddy",
+      "location": "Serbia",
+      "source": "api:jobicy",
+      "link": "https://jobicy.com/jobs/164598-wordpress-advanced-support-guide"
+    },
+    {
+      "score": 20,
+      "role": "Staff Data Engineer",
+      "company": "Twilio",
+      "location": "Ireland",
+      "source": "api:jobicy",
+      "link": "https://jobicy.com/jobs/164604-staff-data-engineer-6"
+    },
+    {
+      "score": 20,
+      "role": "Remote Outbound Sales for English-Speaking Freelancer (100% Remote)",
+      "company": "AetherCore",
+      "location": "France",
+      "source": "api:himalayas",
+      "link": "https://himalayas.app/companies/aethercore/jobs/remote-outbound-sales-for-english-speaking-freelancer-100-remote-3640979572"
+    },
+    {
+      "score": 15,
+      "role": "Staff Corporate Network Engineer | CorpIT",
+      "company": "Wellhub",
+      "location": "Brazil",
+      "source": "api:jobicy",
+      "link": "https://jobicy.com/jobs/164615-staff-corporate-network-engineer-corpit"
+    },
+    {
+      "score": 15,
+      "role": "Staff Platform Engineer | Observability",
+      "company": "Wellhub",
+      "location": "Brazil",
+      "source": "api:jobicy",
+      "link": "https://jobicy.com/jobs/164619-staff-platform-engineer-observability"
+    },
+    {
+      "score": 15,
+      "role": "Staff Platform Engineer",
+      "company": "Wellhub",
+      "location": "Brazil",
+      "source": "api:jobicy",
+      "link": "https://jobicy.com/jobs/164617-staff-platform-engineer-5"
+    }
+  ],
+  "errors": []
+}
